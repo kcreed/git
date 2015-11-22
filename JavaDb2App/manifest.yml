@@ -1,0 +1,10 @@
+applications:
+- path: JavaDb2App.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: RegisApp
+  host: RegisApp
+  disk_quota: 1024M
+  services:
+  - RegisApp-sqldb
